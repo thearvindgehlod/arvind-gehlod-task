@@ -30,7 +30,7 @@ const images = [
     sold: '3.8k',
     name: 'Joeunga Cornus Fruit Juice',
   },
- 
+
   // Add more products as needed
 ];
 
@@ -69,7 +69,7 @@ const ProductCarousel = () => {
               <View style={styles.detailsContainer}>
                 <View style={styles.priceContainer}>
                   <Text style={styles.priceText}>{product.price}</Text>
-                  <Text style={styles.soldText}>{product.sold}<Text style={{color:"black",fontWeight:"bold"}} > Sold</Text></Text>
+                  <Text style={styles.soldText}>{product.sold}<Text style={{ color: "black", fontWeight: "bold" }} > Sold</Text></Text>
                 </View>
                 <Text style={styles.productName}>{product.name}</Text>
               </View>
@@ -79,7 +79,7 @@ const ProductCarousel = () => {
       </View>
     );
   };
-  
+
   return (
     <View style={styles.container}>
       <FlatList
@@ -128,11 +128,11 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   paginationDot: {
-    width: 8,
-    height: 8,
+    width: 10,
+    height: 10,
     borderRadius: 4,
-    backgroundColor: '#888',
-    marginHorizontal: 6,
+    backgroundColor: '#BBBBBB',
+    marginHorizontal: 3,
   },
   activePaginationDot: {
     backgroundColor: '#FAC0A4',
@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
   priceText: {
     fontWeight: 'bold',
     fontSize: 16,
-    color:"#000"
+    color: "#000"
   },
   soldText: {
     fontSize: 13,

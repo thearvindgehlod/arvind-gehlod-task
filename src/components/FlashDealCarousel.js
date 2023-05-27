@@ -130,11 +130,11 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   paginationDot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-    backgroundColor: '#888',
-    marginHorizontal: 6,
+    width: 10,
+        height: 10,
+        borderRadius: 4,
+        backgroundColor: '#BBBBBB',
+        marginHorizontal: 3,
   },
   activePaginationDot: {
     backgroundColor: '#FAC0A4',
